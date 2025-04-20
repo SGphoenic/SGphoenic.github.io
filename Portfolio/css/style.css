@@ -205,6 +205,9 @@ body
 	margin: 20px;
 	padding: 0px 20px;
 	width: 85%;
+	overflow: scroll;
+	overflow-x:hidden;
+	scrollbar-width: none;
 }
 
 #primary table {
