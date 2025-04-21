@@ -676,6 +676,11 @@ body
 		display: block;
 		margin: 0px;
 	}
+
+	footer
+	{
+		bottom: unset;
+	}
 }
 
 /*Initialise profile card*/
