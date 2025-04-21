@@ -173,6 +173,9 @@ body
 	overflow: scroll;
 	overflow-x: hidden;
 	scrollbar-width: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 .tabNav button 
@@ -185,7 +188,6 @@ body
 	border: none;
 	border-radius: 50px;
 	outline: none;
-	text-align: left;
 	cursor: pointer;
 	transition: 0.3s;
 	font-size: 17px;
@@ -214,9 +216,22 @@ body
 	scrollbar-width: none;
 }
 
+.navTable
+{
+	width: 100%;
+}
+
+.dropBtn
+{
+	display: block;
+	max-height: 50px;
+	max-width: 50px;
+	text-align: center;
+}
+
 #primary table {
 	width: 100%;
-	text-align:left;
+	text-align: left;
 	border: double;
 }
 #primary td {
@@ -668,7 +683,36 @@ body
 
 	.tabNav 
 	{
-		
+		width: 100%;
+		border-radius: 0px 0px 50px 50px;
+	}
+
+	.tabNav button 
+	{
+		/*background-color: inherit;
+		color: white;
+		padding: 15px;
+		width: 100%;
+		border: none;
+		border-radius: 50px;
+		outline: none;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 17px;
+		margin: 5px 0px 5px 0px;*/
+	}
+
+	.tabNav button:hover 
+	{
+		background-color: #2ca156;
+	}
+
+	.tabNav button.active 
+	{
+		display: block;
+		background-color: #1ed760;
+		color: black;
+		font-weight: bold;
 	}
 
 	.tabContent
@@ -677,9 +721,19 @@ body
 		margin: 0px;
 	}
 
+	.tabContent img
+	{
+		width: 100%;
+	}
+
 	footer
 	{
 		bottom: unset;
+	}
+
+	.dropBtn 
+	{
+		text-align: center;
 	}
 }
 

@@ -19,14 +19,17 @@
     </nav>
     <div class="container" style="padding: 0px;">
         <div class="tabNav">
-            <button class="tabBtn" onclick="openTab(event, 'WebP')" id="defaultOpen">   Web Publishing                  </button>
-            <button class="tabBtn" onclick="openTab(event, 'Dsn2')">                    Database and Sever Networking   </button>
-            <button class="tabBtn" onclick="openTab(event, 'WebDev1')">                 Web Development 1               </button>
-            <button class="tabBtn" onclick="openTab(event, 'WebDev2')">                 Web Development 2               </button>
-            <button class="tabBtn" onclick="openTab(event, '2D1')">                     2D Game Engine 1                </button>
-            <button class="tabBtn" onclick="openTab(event, '2D2')">                     2D Game Engine 2                </button>
-            <button class="tabBtn" onclick="openTab(event, '2DGameProject')">           2D Game Project                 </button>
-            <button class="tabBtn" onclick="openTab(event, '3DGameProject')">           3D Game Project                 </button>
+            <div class="navTable">
+                <button class="tabBtn" onclick="openTab(event, 'WebP')" id="defaultOpen">   Web Publishing                  </button>
+                <button class="tabBtn" onclick="openTab(event, 'Dsn2')">                    Database and Sever Networking   </button>
+                <button class="tabBtn" onclick="openTab(event, 'WebDev1')">                 Web Development 1               </button>
+                <button class="tabBtn" onclick="openTab(event, 'WebDev2')">                 Web Development 2               </button>
+                <button class="tabBtn" onclick="openTab(event, '2D1')">                     2D Game Engine 1                </button>
+                <button class="tabBtn" onclick="openTab(event, '2D2')">                     2D Game Engine 2                </button>
+                <button class="tabBtn" onclick="openTab(event, '2DGameProject')">           2D Game Project                 </button>
+                <button class="tabBtn" onclick="openTab(event, '3DGameProject')">           3D Game Project                 </button>
+            </div>
+            <button class="dropBtn" onclick="toggleNav()">V</button>
         </div>
 
         <div id="WebP" class="tabContent">
