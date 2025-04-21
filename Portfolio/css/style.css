@@ -29,7 +29,7 @@ header
 
 header h1 
 {
-	color: white;
+	color: #711988;
 }
 
 body 
@@ -177,7 +177,6 @@ body
 
 .tabNav button 
 {
-	display: block;
 	background-color: inherit;
 	color: white;
 	padding: 15px;
@@ -516,6 +515,11 @@ body
 	.item {
 		font-size: 40px;
 	}
+
+	.dropBtn 
+	{
+		display: none;	
+	}
 }
 
 /*Tablet*/
@@ -605,6 +609,11 @@ body
 		transition: 0.3s;
 		font-size: 10px;
 		margin: 5px 0px 5px 0px;
+	}
+
+	.dropBtn 
+	{
+		display: none;	
 	}
 }
 
