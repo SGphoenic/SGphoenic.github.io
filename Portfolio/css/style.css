@@ -150,6 +150,7 @@ body
 	height: 100%;
 	width: 20%;
 	border-radius: 25px;
+	max-height: 100%;
 }
 
 #Info
@@ -401,6 +402,9 @@ body
 	height: 83.5vh;
 	display: flex;
 	padding: 5px;
+	overflow: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
 }
 .feature {
 	display: grid;
@@ -654,6 +658,7 @@ body
 	#Skills
 	{
 		width: 100%;
+		height: 100%;
 	}
 
 	#Info
